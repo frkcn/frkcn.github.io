@@ -46,7 +46,7 @@ url: http://frkcn.net
 # olduğuna göre bu parametre için örnek bir değer:
 #   
 # 	http://roktas.github.com/chrome
-assets: http://frkcn.org/chrome
+assets: http://frkcn.github.com/chrome
 
 # ----------------------------------------------------------------------
 # site parametreleri
