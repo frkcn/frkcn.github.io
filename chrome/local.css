@@ -12,3 +12,47 @@ body {
 background-color: none;
 background-image:url('../chrome/background/arka2.gif')
 }
+
+.ribbon {
+background-color: #55c4bb;
+}
+.ribbon a {
+border: 1px solid #63fff2;
+}
+#navtop {
+  background-image:url('../chrome/huruf/star-red-32-negative.png');
+  display:inline-block;
+  width:32px;
+  height:32px;
+  margin-right:3em;
+}
+#navactive0 {
+  background-image:url('../chrome/huruf/0-red-32-negative.png');
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+}
+#navactive1 {
+  background-image:url('../chrome/huruf/1-red-32-negative.png');
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+}
+#navactive2 {
+  background-image:url('../chrome/huruf/2-red-32-negative.png');
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+}
+#navactive7 {
+  background-image:url('../chrome/huruf/7-red-32-negative.png');
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+}
+#navactive9 {
+  background-image:url('../chrome/huruf/9-red-32-negative.png');
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+}
