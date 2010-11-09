@@ -1,3 +1,8 @@
+---
+layout: post
+title: nil
+---
+
 #### hayatımız ikili sistem
 
 Gecenin bu saatinde nerden esti böyle bir şey yazmak bende bilmiyorum ama yazıyorum. 
