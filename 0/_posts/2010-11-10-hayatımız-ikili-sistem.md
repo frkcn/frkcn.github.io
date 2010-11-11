@@ -9,6 +9,6 @@ Bilgisayar `0` ve `1` lerden başka bir şeyden anlamaz aslında. Çok basit dü
 
 Hayatımıza baktığımızda da öyle sanki. Hayatı ikili sistemde yaşıyoruz çoğu zaman. Karşımızdakilere sürekli bi seçim yapmaları konusunda zorluyoruz, zorlanıyoruz. 
 
-Böyle olunca evet-hayır, doğru-yanlış, güzel-çirkin, giriş-çıkış, evet-hayır lar sarıyor hayatımızı. Yani `0` ve `1`lerle yaşamaya başlıyoruz. 
+Böyle olunca doğru-yanlış, güzel-çirkin, giriş-çıkış, evet-hayır lar sarıyor hayatımızı. Yani `0` ve `1`lerle yaşamaya başlıyoruz. 
 
 
