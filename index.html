@@ -11,78 +11,78 @@ title: frkcn.net | it's my life
   teknik içerikli yazıları <a href="1/"><code>1</code></a> nolu kısımda 
   bulabilirsiniz.</p><br><br>
 
-<center>
-<script language="JavaScript1.1">
 
-var specifyimage=new Array() //Your images / resimler
+  <script language="JavaScript1.1">
 
-specifyimage[0]="/images/caricature/0.jpg"
+  var specifyimage=new Array() //Your images / resimler
 
-specifyimage[1]="/images/caricature/1.jpg"
+  specifyimage[0]="/images/caricature/0.jpg"
 
-specifyimage[2]="/images/caricature/2.jpg"
+  specifyimage[1]="/images/caricature/1.jpg"
 
-specifyimage[3]="/images/caricature/3.jpg"
+  specifyimage[2]="/images/caricature/2.jpg"
 
-specifyimage[4]="/images/caricature/4.jpg"
+  specifyimage[3]="/images/caricature/3.jpg"
 
-specifyimage[5]="/images/caricature/5.jpg"
+  specifyimage[4]="/images/caricature/4.jpg"
 
-specifyimage[6]="/images/caricature/6.jpg"
+  specifyimage[5]="/images/caricature/5.jpg"
 
-specifyimage[7]="/images/caricature/7.jpg"
+  specifyimage[6]="/images/caricature/6.jpg"
 
-specifyimage[8]="/images/caricature/8.jpg"
+  specifyimage[7]="/images/caricature/7.jpg"
 
-
-
-var delay=3000 //3 seconds / 3 saniye bekleme
+  specifyimage[8]="/images/caricature/8.jpg"
 
 
 
-//Counter for array / syralamadaki ikinci resim 
-
-var count =0;
+  var delay=3000 //3 seconds / 3 saniye bekleme
 
 
 
-var cubeimage=new Array()
+  //Counter for array / syralamadaki ikinci resim 
 
-for (i=0;i<specifyimage.length;i++){
+  var count =0;
 
-cubeimage[i]=new Image()
 
-cubeimage[i].src=specifyimage[i]
 
-}
+  var cubeimage=new Array()
 
-function movecube(){
+  for (i=0;i<specifyimage.length;i++){
 
-if (window.createPopup)
+  cubeimage[i]=new Image()
 
-cube.filters[0].apply()
+  cubeimage[i].src=specifyimage[i]
 
-document.images.cube.src=cubeimage[count].src;
+  }
 
-if (window.createPopup)
+  function movecube(){
 
-cube.filters[0].play()
+  if (window.createPopup)
 
-count++;
+  cube.filters[0].apply()
 
-if (count==cubeimage.length)
+  document.images.cube.src=cubeimage[count].src;
 
-count=0;
+  if (window.createPopup)
 
-setTimeout("movecube()",delay)
+  cube.filters[0].play()
 
-}
+  count++;
 
-window.onload=new Function("setTimeout('movecube()',delay)")
+  if (count==cubeimage.length)
 
-                        </script>
+  count=0;
 
-  </center>
+  setTimeout("movecube()",delay)
+
+  }
+
+  window.onload=new Function("setTimeout('movecube()',delay)")
+
+  </script>
+
+
   {% include html/archive %}
 </div>
   
