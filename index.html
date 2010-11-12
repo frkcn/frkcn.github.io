@@ -13,40 +13,74 @@ title: frkcn.net | it's my life
 
 <center>
 <script language="JavaScript1.1">
+
 var specifyimage=new Array() //Your images / resimler
+
 specifyimage[0]="/images/caricature/0.jpg"
+
 specifyimage[1]="/images/caricature/1.jpg"
+
 specifyimage[2]="/images/caricature/2.jpg"
+
 specifyimage[3]="/images/caricature/3.jpg"
+
 specifyimage[4]="/images/caricature/4.jpg"
+
 specifyimage[5]="/images/caricature/5.jpg"
+
 specifyimage[6]="/images/caricature/6.jpg"
+
 specifyimage[7]="/images/caricature/7.jpg"
+
 specifyimage[8]="/images/caricature/8.jpg"
 
-var delay=30000 //3 seconds / 3 saniye bekleme
+
+
+var delay=3000 //3 seconds / 3 saniye bekleme
+
+
 
 //Counter for array / syralamadaki ikinci resim 
+
 var count =0;
 
+
+
 var cubeimage=new Array()
+
 for (i=0;i<specifyimage.length;i++){
-cubeimage=new Image()
-cubeimage.src=specifyimage
+
+cubeimage[i]=new Image()
+
+cubeimage[i].src=specifyimage[i]
+
 }
+
 function movecube(){
+
 if (window.createPopup)
+
 cube.filters[0].apply()
+
 document.images.cube.src=cubeimage[count].src;
+
 if (window.createPopup)
+
 cube.filters[0].play()
+
 count++;
+
 if (count==cubeimage.length)
+
 count=0;
+
 setTimeout("movecube()",delay)
+
 }
+
 window.onload=new Function("setTimeout('movecube()',delay)")
-                                    </script>
+
+                        </script>
 
   </center>
   {% include html/archive %}
