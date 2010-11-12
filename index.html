@@ -12,75 +12,45 @@ title: frkcn.net | it's my life
   bulabilirsiniz.</p><br><br>
 
 
-  <script language="JavaScript1.1">
+  <script language="JavaScript" type="text/javascript">
 
-  var specifyimage=new Array() //Your images / resimler
+  today=new Date();
+  jran=today.getTime();
 
-  specifyimage[0]="/images/caricature/0.jpg"
+  function rnd() {
 
-  specifyimage[1]="/images/caricature/1.jpg"
+  ia=9301;
+  ic=49297;
+  im=233280;
 
-  specifyimage[2]="/images/caricature/2.jpg"
+  jran = (jran*ia+ic) % im;
+  return jran/(im*1.0);
+  };
 
-  specifyimage[3]="/images/caricature/3.jpg"
+  function rand(number) {
 
-  specifyimage[4]="/images/caricature/4.jpg"
+  return Math.ceil(rnd()*number);
+  };
 
-  specifyimage[5]="/images/caricature/5.jpg"
+  document.write();
+  for(i=1;i<=1;i++) {
+  myNum=(rand(10));
+  if(myNum == 1) document.write("<img src='images/caricature/0.jpg'>");
+  if(myNum == 2) document.write("<img src='images/caricature/1.jpg'>");
+  if(myNum == 3) document.write("<img src='images/caricature/2.jpg'>");
+  if(myNum == 1) document.write("<img src='images/caricature/3.jpg'>");
+  if(myNum == 1) document.write("<img src='images/caricature/4.jpg'>");
+  if(myNum == 1) document.write("<img src='images/caricature/5.jpg'>");
+  if(myNum == 1) document.write("<img src='images/caricature/6.jpg'>");
+  if(myNum == 1) document.write("<img src='images/caricature/7.jpg'>");
+  if(myNum == 1) document.write("<img src='images/caricature/8.jpg'>");
 
-  specifyimage[6]="/images/caricature/6.jpg"
-
-  specifyimage[7]="/images/caricature/7.jpg"
-
-  specifyimage[8]="/images/caricature/8.jpg"
-
-
-
-  var delay=3000 //3 seconds / 3 saniye bekleme
-
-
-
-  //Counter for array / syralamadaki ikinci resim 
-
-  var count =0;
-
-
-
-  var cubeimage=new Array()
-
-  for (i=0;i<specifyimage.length;i++){
-
-  cubeimage[i]=new Image()
-
-  cubeimage[i].src=specifyimage[i]
-
+  else {
+  document.write();
   }
 
-  function movecube(){
-
-  if (window.createPopup)
-
-  cube.filters[0].apply()
-
-  document.images.cube.src=cubeimage[count].src;
-
-  if (window.createPopup)
-
-  cube.filters[0].play()
-
-  count++;
-
-  if (count==cubeimage.length)
-
-  count=0;
-
-  setTimeout("movecube()",delay)
-
-  }
-
-  window.onload=new Function("setTimeout('movecube()',delay)")
-
-  </script>
+  };
+  </script><br>
 
 
   {% include html/archive %}
