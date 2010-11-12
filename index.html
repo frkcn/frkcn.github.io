@@ -12,46 +12,42 @@ title: frkcn.net | it's my life
   bulabilirsiniz.</p><br><br>
 
 <center>
-	<td height="71" ><script language="JavaScript" type="text/javascript">
+	<script language="JavaScript1.1">
+var specifyimage=new Array() //Your images / resimler
+specifyimage[0]="/images/caricature/0.jpg"
+specifyimage[1]="/images/caricature/1.jpg"
+specifyimage[2]="/images/caricature/2.jpg"
+specifyimage[3]="/images/caricature/3.jpg"
+specifyimage[4]="/images/caricature/4.jpg"
+specifyimage[5]="/images/caricature/5.jpg"
+specifyimage[6]="/images/caricature/6.jpg"
+specifyimage[7]="/images/caricature/7.jpg"
+specifyimage[8]="/images/caricature/8.jpg"
 
-	today=new Date();
-	jran=today.getTime();
+var delay=30000 //3 seconds / 3 saniye bekleme
 
-	function rnd() {
+//Counter for array / syralamadaki ikinci resim 
+var count =0;
 
-	ia=9301;
-	ic=49297;
-	im=233280;
+var cubeimage=new Array()
+for (i=0;i<specifyimage.length;i++){
+cubeimage=new Image()
+cubeimage.src=specifyimage
+}
+function movecube(){
+if (window.createPopup)
+cube.filters[0].apply()
+document.images.cube.src=cubeimage[count].src;
+if (window.createPopup)
+cube.filters[0].play()
+count++;
+if (count==cubeimage.length)
+count=0;
+setTimeout("movecube()",delay)
+}
+window.onload=new Function("setTimeout('movecube()',delay)")
+                                    </script>
 
-	jran = (jran*ia+ic) % im;
-	return jran/(im*1.0);
-	};
-
-	function rand(number) {
-
-	return Math.ceil(rnd()*number);
-	};
-
-	document.write();
-	for(i=1;i<=1;i++) {
-	myNum=(rand(3));
-	if(myNum == 1) document.write("<img src='images/caricature/0.jpg'>"); 
-	if(myNum == 2) document.write("<img src='images/caricature/1.jpg'>");
-	if(myNum == 3) document.write("<img src='images/caricature/2.jpg'>");
-	if(myNum == 4) document.write("<img src='images/caricature/3.jpg'>");
-	if(myNum == 5) document.write("<img src='images/caricature/4.jpg'>");
-	if(myNum == 6) document.write("<img src='images/caricature/5.jpg'>");
-	if(myNum == 7) document.write("<img src='images/caricature/6.jpg'>");
-	if(myNum == 8) document.write("<img src='images/caricature/7.jpg'>");
-	if(myNum == 9) document.write("<img src='images/caricature/8.jpg'>");
-	if(myNum == 10) document.write("<img src='images/caricature/9.jpg'>");
-
-	else {
-	document.write();
-	}
-
-	};
-        </script>
   </center>
   {% include html/archive %}
 </div>
