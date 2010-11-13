@@ -22,7 +22,7 @@ adımlarını takip ederek açabilirsiniz.
 
 Kullanıyoruz iyi hoşta bu programda şu işlev yok dediğiniz bir gün gelirse emin olun onunda plugin'i mutlaka vardır. 
 
-(Gimp Plugins)[http://registry.gimp.org/] --> buraya tıklayarak o pluginlerin neler olduğunu görebilir, **özgürce** indirebilirsiniz.
+[Gimp Plugins](http://registry.gimp.org/) --> buraya tıklayarak o pluginlerin neler olduğunu görebilir, **özgürce** indirebilirsiniz.
 
 O zaman size şimdilik iyi **Gimp**lemeler diyerek veda ediyorum...
 
