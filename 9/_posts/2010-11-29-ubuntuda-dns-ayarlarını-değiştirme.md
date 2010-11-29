@@ -24,8 +24,8 @@ Eğer bağlantı otomatik olarak yenilenmediyse bağlantıyı koparıp yeniden b
 Yukarıdaki anlatımda `Google DNS` ayarları gösterilmiştir. İsterseniz başka dns ayarlarını da kullanabilirsiniz.
 
 **Open DNS**
-- 208.67.222.222
-- 208.67.220.220
+- `208.67.222.222`
+- `208.67.220.220`
 
 
 
