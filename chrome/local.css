@@ -13,11 +13,11 @@ background-color: none;
 background-image:url('../chrome/background/bg.png')
 }
 a:link {
-	color: #FFFFFF;
+	color: #1F384B;
 	text-decoration: none;
 }
 a:visited {
-	color: #FFFFFF;
+	color: #1F384B;
 	text-decoration: none;
 }
 a:hover {
