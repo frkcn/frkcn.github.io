@@ -12,7 +12,22 @@ body {
 background-color: none;
 background-image:url('../chrome/background/bg.png')
 }
-
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #6699FF;
+	text-decoration: none;
+}
+a:active {
+	color: #6699FF;
+	text-decoration: none;
+}
 .ribbon {
 background-color: #54263D;
 }
