@@ -28,12 +28,13 @@ a:active {
 	color: #C5010B;
 	text-decoration: none;
 }
-.ribbon {
-background-color: #FFFFFF;
-}
-.ribbon a {
-border: 1px solid #1C122D;
-}
+/*.ribbon {
+ *background-color: #FFFFFF;
+ *}
+ *.ribbon a {
+ *border: 1px solid #1C122D;
+ *}
+ */
 #navtop {
   background-image:url('../chrome/huruf/star-red-32.png');
   display:inline-block;
