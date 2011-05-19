@@ -1,6 +1,6 @@
 ---
 layout: post
-title: debian: opera kurulumu
+title: debiana opera kurulumu
 ---
 
 İlk yapmamız gereken sudo yetkileri almak. 
