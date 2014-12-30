@@ -27,7 +27,7 @@ organization: 19
 # bu siteyi üreten github deposu (ör. roktas.github.com)
 # dikkat!  depo çoğunlukla <account>.github.com formundadır.  fakat başka
 # bir depo da olabilir.  url parametresi için yazılan açıklamayı okuyun.
-repository: frkcn.github.com
+repository: frkcn.github.io
 
 # üretilen sitenin web adresi ne?  ör. "http://roktas.github.com".
 # CNAME kaydımız varsa bu adresi giriyoruz.  dikkat!  bu site
@@ -35,7 +35,7 @@ repository: frkcn.github.com
 # örneğin http://roktas.github.com/test olabilir.  fakat bu durumda
 # kurulumdan sonra "master" dalını "gh-pages" dalına birleştirmelisiniz.
 # 	git checkout -b gh-pages
-url: http://frkcn.github.com
+url: http://frkcn.net
 
 # site görünümüne ilişkin olarak sitede mutlak adres yoluyla herhangi bir
 # sayfadan erişilebilecek ortak "dijital varlıklar"ın (ör. logolar) adresi.
