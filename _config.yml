@@ -4,7 +4,7 @@
 baseurl: 
 
 # Site live URL
-url: http://frkcn.net
+url: http://frkcn.github.io
 
 # Localhost 
 #url: http://127.0.0.1:4000  
@@ -23,7 +23,7 @@ harmony:
   author: # Author details
     name: Faruk Can
     email: frkcn@bil.omu.edu.tr
-    url: http://frkcn.net
+    url: http://frkcn.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-19675892-1
